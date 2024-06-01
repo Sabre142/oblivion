@@ -8250,6 +8250,12 @@ plugins:
   - name: 'HTSCl_si.esp'
     req: [ 'DLCShiveringIsles.esp' ]
 
+  - name: 'Immersive Quest Marker Overhaul.esp'
+    url:
+      - link: 'https://www.nexusmods.com/oblivion/mods/54007/'
+        name: 'Immersive Quest Marker Overhaul'
+    group: *earlyLoadersGroup
+
   - name: 'Jail Break (Escape )?Routes\.esp'
     url: [ 'https://www.nexusmods.com/oblivion/mods/39385/' ]
   - name: 'Jail Break Escape Routes.esp'
