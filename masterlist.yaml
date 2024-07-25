@@ -18955,6 +18955,18 @@ plugins:
       - crc: 0x612E581F
         util: 'TES4Edit v4.0.3h (Hotfix 1)'
 
+  - name: 'Alnwick.esp'
+    url:
+      - link: 'https://www.nexusmods.com/oblivion/mods/46678/'
+        name: 'Town of Alnwick'
+    tag: [ C.Music ]
+    dirty:
+      - <<: *quickClean
+        crc: 0x2E8B646F
+        util: '[TES4Edit v4.1.5g](https://www.nexusmods.com/oblivion/mods/11536)'
+        itm: 22
+        udr: 68
+
   - name: 'AltVillageStart.esp'
     url:
       - link: 'https://www.nexusmods.com/oblivion/mods/48780/'
