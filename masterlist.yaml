@@ -26100,16 +26100,31 @@ plugins:
     req:
       - name: 'Open Cities Classic.esp'
         display: '[Open Cities Classic (AFK Mods)](https://www.afkmods.com/index.php?/files/file/253-open-cities-classic/) or [Open Cities Classic (TES Alliance)](https://tesalliance.org/forums/index.php?/files/file/109-open-cities-classic/)'
-  - name: 'UL(E|S) OpenCitiesClassic-UniqueLandscapes patch.esp'
+  - name: 'UL(E|S) OpenCitiesClassic-(CheydinhalFalls|ChorrolHinterland|SkingradOutskirts) patch.esp'
+    msg:
+      - <<: *alreadyInX
+        subs: [ 'ULS OpenCitiesClassic-UniqueLandscapes merged patch.esp' ]
+        condition: 'active("ULS OpenCitiesClassic-UniqueLandscapes merged patch.esp") and not version("Unique Landscapes.esp", "2.0.0", >=)'
+  - name: 'ULE OpenCitiesClassic-(ChorrolHinterland|SkingradOutskirts) patch\.esp'
     msg:
       - <<: *alreadyInX
         subs: [ 'ULM OpenCitiesClassic-UniqueLandscapes patch.esp' ]
         condition: 'active("ULM OpenCitiesClassic-UniqueLandscapes patch.esp") and version("Unique Landscapes.esp", "2.0.0", >=)'
   - name: 'ULE OpenCitiesClassic-ChorrolHinterland patch.esp'
-    tag: [ C.Regions ]
+    tag:
+      - C.Regions
+      - C.Water
   - name: 'ULE OpenCitiesClassic-SkingradOutskirts patch.esp'
     tag: [ C.Water ]
   - name: 'ULM OpenCitiesClassic-UniqueLandscapes patch.esp'
+    tag:
+      - C.Regions
+      - C.Water
+  - name: 'ULS OpenCitiesClassic-CheydinhalFalls patch.esp'
+    tag:
+      - C.Regions
+      - C.Water
+  - name: 'ULS OpenCitiesClassic-UniqueLandscapes merged patch.esp'
     tag:
       - C.Regions
       - C.Water
