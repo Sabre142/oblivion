@@ -22892,6 +22892,14 @@ plugins:
       - crc: 0x91232940
         util: 'TES4Edit v4.0.4'
 
+  - name: 'Amen''thalas.esp'
+    url:
+      - link: 'https://www.nexusmods.com/oblivion/mods/32710/'
+        name: 'Amen''thalas Well House'
+    clean:
+      - crc: 0x9D4932B7
+        util: 'TES4Edit v4.1.5g'
+
   - name: 'Anoicaar - Tenth Anniversary Edition.esp'
     url:
       - link: 'https://www.nexusmods.com/oblivion/mods/49218/'
