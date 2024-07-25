@@ -25847,7 +25847,7 @@ plugins:
   # ULC Patches - Amen'thalas Well House #
   - name: 'UL(M|S) Amen''thalasWellHouse.*patch\.esp'
     req:
-      - name: 'Amen''thalas Well House.esp'
+      - name: 'Amen''thalas.esp'
         display: '[Amen''thalas Well House](https://www.nexusmods.com/oblivion/mods/32710/)'
   # ULC Patches - Apachii Heroes Store #
   - name: 'ULE ApachiiHeroesStore-Snowdale patch.esp'
