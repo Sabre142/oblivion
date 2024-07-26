@@ -4895,6 +4895,20 @@ plugins:
       - NoMerge
 
 ###### Character Appearance - Body, face & hair ######
+  - name: 'Ahtata Arquamer (female got hair|spike4hair)\.esp'
+    url:
+      - link: 'https://www.nexusmods.com/oblivion/mods/20338/'
+        name: 'Ahtata Argonian Replacer HGEC'
+    msg:
+      - <<: *useOnlyOneX
+        subs: [ 'Ahtata Argonian Replacer ESP' ]
+        condition: 'many("Ahtata Arquamer (female got hair|spike4hair)\.esp")'
+    tag:
+      - Graphics
+      - NPC.FaceGen
+      - NPC.Hair
+      - R.Hair
+
   - name: 'BAF - Beast Argonians Froever.*\.esp'
     url:
       - link: 'https://www.nexusmods.com/oblivion/mods/50726/'
@@ -34859,13 +34873,6 @@ plugins:
       - Hair
       - NpcFaces
       - R.Relations
-  - name: 'Ahtata Arquamer female got hair.esp'
-    url: [ 'https://www.nexusmods.com/oblivion/mods/20338/' ]
-    tag:
-      - Eyes
-      - Hair
-      - NpcFaces
-      - R.Relations
   - name: 'ahtata Ork.esp'
     tag:
       - Eyes
@@ -35947,9 +35954,6 @@ plugins:
         util: '[TES4Edit v4.0.2](https://www.nexusmods.com/oblivion/mods/11536)'
         itm: 2
         udr: 2
-  - name: 'Ahtata Arquamer spike4hair.esp'
-    url: [ 'https://www.nexusmods.com/oblivion/mods/20338/' ]
-    after: [ 'Bashed Patch, 0.esp' ]  # The default filename for a Bashed Patch.
 
   - name: 'Vanilla Weapon Stat Override( - SI)?\.esp'
     url: [ 'https://www.nexusmods.com/oblivion/mods/39914/' ]
