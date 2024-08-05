@@ -440,7 +440,7 @@ common:
   - &requiresDisabledBorderRegions
     <<: *requiresX
     type: say
-    subs: [ 'INI setting [bBorderRegionsEnabled=0](http://wiki.tesnexus.com/index.php/Removing_In-Game_Borders)' ]
+    subs: [ 'INI setting [bBorderRegionsEnabled=0](https://wiki.nexusmods.com/index.php/Removing_In-Game_Borders)' ]
     condition: 'not file("Borderless Cyrodiil-3578.esp")'
 
   # &useInstead
@@ -18342,7 +18342,7 @@ plugins:
   - name: 'Border Removal.esp'
     msg:
       - <<: *useINITweakInstead
-        subs: [ '[bBorderRegionsEnabled=0](http://wiki.tesnexus.com/index.php/Removing_In-Game_Borders)' ]
+        subs: [ '[bBorderRegionsEnabled=0](https://wiki.nexusmods.com/index.php/Removing_In-Game_Borders)' ]
 
   - name: 'TOS - Prelude.esp'
     url:
@@ -19182,7 +19182,7 @@ plugins:
     url: [ 'https://www.nexusmods.com/oblivion/mods/11998/' ]
     msg:
       - <<: *useINITweakInstead
-        subs: [ '[bBorderRegionsEnabled=0](http://wiki.tesnexus.com/index.php/Removing_In-Game_Borders)' ]
+        subs: [ '[bBorderRegionsEnabled=0](https://wiki.nexusmods.com/index.php/Removing_In-Game_Borders)' ]
 
   - name: 'Chapels( )?of( )?Cyrodiil( KOTN Patch)?\.esp'
     url:
@@ -24867,7 +24867,7 @@ plugins:
     after: [ 'Valenwood Improved.esp' ]
     msg:
       - <<: *alsoUseX
-        subs: [ 'INI setting [`bBorderRegionsEnabled=0`](http://wiki.tesnexus.com/index.php/Removing_In-Game_Borders)' ]
+        subs: [ 'INI setting [`bBorderRegionsEnabled=0`](https://wiki.nexusmods.com/index.php/Removing_In-Game_Borders)' ]
       - <<: *patch3rdParty
         subs:
           - 'Valenwood Improved'
@@ -31486,7 +31486,7 @@ plugins:
     url: [ 'https://www.nexusmods.com/oblivion/mods/12246/' ]
     msg:
       - <<: *useINITweakInstead
-        subs: [ '[bBorderRegionsEnabled=0](http://wiki.tesnexus.com/index.php/Removing_In-Game_Borders)' ]
+        subs: [ '[bBorderRegionsEnabled=0](https://wiki.nexusmods.com/index.php/Removing_In-Game_Borders)' ]
     dirty:
       - <<: *quickClean
         crc: 0x1BDBE6E9
@@ -33129,7 +33129,7 @@ plugins:
     url: [ 'https://www.nexusmods.com/oblivion/mods/3578/' ]
     msg:
       - <<: *useINITweakInstead
-        subs: [ '[bBorderRegionsEnabled=0](http://wiki.tesnexus.com/index.php/Removing_In-Game_Borders)' ]
+        subs: [ '[bBorderRegionsEnabled=0](https://wiki.nexusmods.com/index.php/Removing_In-Game_Borders)' ]
 
   - name: 'Shadow Ranger Redux.esp'
     inc:
