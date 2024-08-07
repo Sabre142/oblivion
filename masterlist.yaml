@@ -19038,6 +19038,32 @@ plugins:
         util: '[TES4Edit v4.1.5g](https://www.nexusmods.com/oblivion/mods/11536)'
         itm: 297
 
+  - name: 'TWMP Skyrim Alive.esp'
+    url:
+      - link: 'https://www.nexusmods.com/oblivion/mods/51538/'
+        name: 'TWMP Skyrim Alive'
+    after:
+      - 'TWMP_Locations.esp'
+      - 'TWMP Skyrim Guard Armors & Shields.esp'
+    msg: [ *verGreatReq_xOBSEv22_6 ]
+    tag:
+      - Actors.ACBS
+      - Actors.AIPackages
+      - Actors.Factions
+      - C.Light
+      - C.Name
+      - C.Owner
+      - C.Regions
+      - Graphics
+      - Invent.Add
+      - Invent.Remove
+      - Scripts
+    dirty:
+      - <<: *quickClean
+        crc: 0xE5CC3E78
+        util: '[TES4Edit v4.1.5g](https://www.nexusmods.com/oblivion/mods/11536)'
+        itm: 115
+
   - name: 'TWMP_SkyrimImproved.esp'
     url:
       - link: 'https://www.nexusmods.com/oblivion/mods/43924/'
