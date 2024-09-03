@@ -15199,12 +15199,11 @@ plugins:
         condition: 'many("Toaster''s Legendary Skills( & Stats)?\.esp")'
 
   - name: 'Ultimate Leveling.esp'
-    url: [ 'https://www.nexusmods.com/oblivion/mods/49134/' ]
+    url:
+      - link: 'https://www.nexusmods.com/oblivion/mods/49134/'
+        name: 'Ultimate Leveling'
     req: [ *MenuQue ]
-    inc:
-      - 'Oblivion XP.esp'
-      - 'OBSE/Plugins/AVUncapper.dll'
-      - 'OBSE/Plugins/OBSE_Elys_Uncapper.dll'
+    inc: [ 'Oblivion XP.esp' ]
     msg:
       - <<: *compatIssuesWithX
         subs: [ '[Real Time Lockpicking](https://www.nexusmods.com/oblivion/mods/38801/) **MigLockpicking.esp**' ]
